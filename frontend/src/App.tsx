@@ -52,7 +52,7 @@ export default function App() {
       <div className="max-w-6xl mx-auto">
         <header className="mb-8">
           <h1 className="text-3xl font-bold tracking-tight">Task Board</h1>
-          <p className="text-muted-foreground text-sm">Manage, track, and complete your workflow.</p>
+          <p className="text-muted-foreground text-sm">Task Board, manage and track organize your Tasks.</p>
         </header>
 
         <TodoForm onAdd={handleAdd} />
