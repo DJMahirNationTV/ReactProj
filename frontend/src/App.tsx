@@ -4,6 +4,7 @@ import { todoApi } from './services/todo-api';
 import { TodoForm } from './components/TodoForm';
 import { TodoCard } from './components/TodoCard';
 import { Badge } from '@/components/ui/badge';
+import './App.css';
 
 export default function App() {
   const [todos, setTodos] = useState<Todo[]>([]);
