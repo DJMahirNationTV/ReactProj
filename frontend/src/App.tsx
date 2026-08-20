@@ -51,7 +51,7 @@ export default function App() {
 
   return (
     <div className="min-h-screen bg-background text-foreground">
-      {/* Top Navbar */}
+      {/* NAV */}
       <header className="border-b border-border bg-background">
         <div className="max-w-6xl mx-auto px-6 h-14 flex items-center justify-between">
           <div className="flex items-center gap-3">
@@ -63,7 +63,7 @@ export default function App() {
         </div>
       </header>
 
-      {/* Main Content Area */}
+      {/* MAIN */}
       <main className="max-w-6xl mx-auto px-6 py-8">
         <div className="mb-6">
           <h1 className="text-2xl font-semibold tracking-tight">Tasks</h1>
