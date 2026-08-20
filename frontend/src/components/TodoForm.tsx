@@ -20,17 +20,17 @@ export function TodoForm({ onAdd }: Props) {
   };
 
   return (
-    <Card className="mb-8 border-border/40 shadow-sm">
-      <CardContent className="pt-6">
-        <form onSubmit={handleSubmit} className="flex gap-3">
+    <Card className="bg-card border-border mb-8 shadow-xs">
+      <CardContent className="p-4">
+        <form onSubmit={handleSubmit} className="flex gap-2">
           <Input
-            placeholder="Add a new task..."
+            placeholder="Add a new task description..."
             value={description}
             onChange={(e) => setDescription(e.target.value)}
-            className="flex-1"
+            className="bg-background/50 border-input h-9 text-sm placeholder:text-muted-foreground/60"
           />
-          <Button type="submit" className="gap-2">
-            <Plus className="h-4 w-4" /> Add Task
+          <Button type="submit" size="sm" className="h-9 px-4 shrink-0 font-medium">
+            <Plus className="mr-1.5 h-4 w-4" /> Add Task
           </Button>
         </form>
       </CardContent>
